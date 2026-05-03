@@ -1,0 +1,79 @@
+# Tag name          ;  color
+AIS                 ; #5555ff
+Amateur Radio       ; #550000
+Aviation            ; #55aaff
+Civil Defence       ; #ffff00
+FENZ                ; #ff0000
+FM Radio            ; #00ff00
+LoRa                ; #55aa7f
+Marine              ; #5555ff
+Police              ; #0026ff
+Protocol            ; #55ffff
+Satellite           ; #aa00ff
+UHF CB              ; #550000
+
+# Frequency ; Name                     ; Modulation          ;  Bandwidth; Tags
+    75587500; FENZ Wellington          ; Narrow FM           ;      12500; FENZ
+    75588600; palmy_cops2              ; Narrow FM           ;      12500; Police
+    75925510; palmy_cops1              ; Narrow FM           ;      12500; Police
+    75962500; FENZ Wgtn/Johnsonville   ; Narrow FM           ;      12500; FENZ
+    88600000; Radio Active             ; WFM (stereo)        ;     160000; FM Radio
+    89300000; Newstalk ZB              ; WFM (stereo)        ;     160000; FM Radio
+    90100000; The Hits                 ; WFM (stereo)        ;     160000; FM Radio
+    90900000; ZM                       ; WFM (stereo)        ;     160000; FM Radio
+    91700000; The Edge                 ; WFM (stereo)        ;     160000; FM Radio
+    92500000; RNZ Concert              ; WFM (stereo)        ;     160000; FM Radio
+    93300000; Radio Hauraki            ; WFM (stereo)        ;     160000; FM Radio
+    93700000; Flava                    ; WFM (stereo)        ;     160000; FM Radio
+    94100000; The Breeze               ; WFM (stereo)        ;     160000; FM Radio
+    94900000; Atiawa Toa FM            ; WFM (stereo)        ;     160000; FM Radio
+    95300000; More FM                  ; WFM (stereo)        ;     160000; FM Radio
+    95700000; Coast                    ; WFM (stereo)        ;     160000; FM Radio
+    96100000; RNZ Concert              ; WFM (stereo)        ;     160000; FM Radio
+    96500000; The Rock                 ; WFM (stereo)        ;     160000; FM Radio
+    97300000; The Sound                ; WFM (stereo)        ;     160000; FM Radio
+    98100000; Life FM                  ; WFM (stereo)        ;     160000; FM Radio
+    98500000; The Breeze               ; WFM (stereo)        ;     160000; FM Radio
+    98900000; Breeze Classic           ; WFM (stereo)        ;     160000; FM Radio
+    99700000; More FM                  ; WFM (stereo)        ;     160000; FM Radio
+   100500000; Mai FM                   ; WFM (stereo)        ;     160000; FM Radio
+   100700000; More FM                  ; WFM (stereo)        ;     160000; FM Radio
+   100900000; Atiawa Toa FM            ; WFM (stereo)        ;     160000; FM Radio
+   101300000; RNZ National             ; WFM (stereo)        ;     160000; FM Radio
+   101700000; RNZ National             ; WFM (stereo)        ;     160000; FM Radio
+   103700000; PMN 531                  ; WFM (stereo)        ;     160000; FM Radio
+   104100000; PMN 531                  ; WFM (stereo)        ;     160000; FM Radio
+   104500000; Channel X                ; WFM (stereo)        ;     160000; FM Radio
+   105300000; Radio Tarana             ; WFM (stereo)        ;     160000; FM Radio
+   106100000; Wellington Access Radio  ; WFM (stereo)        ;     160000; FM Radio
+   118800000; Wellington ATC Tower     ; AM                  ;      12500; Aviation
+   119300000; Wellington ATC Approach  ; AM                  ;      12500; Aviation
+   121900000; Wellington ATC Ground    ; AM                  ;      12500; Aviation
+   126900000; Wellington ATIS          ; AM                  ;      12500; Aviation
+   137100000; NOAA Satellites 1        ; Demod Off           ;      34000; Satellite
+   137912500; NOAA Satellites 2        ; Demod Off           ;      34000; Satellite
+   141425000; Wrights Hill             ; WFM (stereo)        ;      16000; Amateur Radio
+   145800000; ISS Downlink             ; Demod Off           ;      12500; Satellite
+   146625000; ZL2 Hawkins Hill 2m      ; Demod Off           ;      16000; Amateur Radio
+   147075000; ZL2 Colonial Knob 2m Rptr; WFM (stereo)        ;      16000; Amateur Radio
+   147100000; ZL2 Belmont 2m Rptr      ; WFM (stereo)        ;      16000; Amateur Radio
+   147300000; ZL2 Mt Climie 2m Rptr    ; WFM (stereo)        ;      16000; Amateur Radio
+   149400000; Makara High              ; WFM (stereo)        ;      16000; Civil Defence
+   149425000; Wgtn CC HQ               ; WFM (stereo)        ;      16000; Civil Defence
+   149725000; WCC Kaukau               ; WFM (stereo)        ;      16000; Civil Defence
+   149775000; NATIONAL                 ; WFM (stereo)        ;      16000; Civil Defence
+   149825000; Wgtn CC                  ; WFM (stereo)        ;      16000; Civil Defence
+   156125000; Marine Ch 62 Coastguard  ; WFM (stereo)        ;      16000; Marine
+   156375000; Marine Ch 67 Wgtn Radio  ; WFM (stereo)        ;      16000; Marine
+   156700000; Marine Ch 14 Beacon Hill ; WFM (stereo)        ;      16000; Marine
+   156800000; Marine Ch 16 Distress    ; WFM (stereo)        ;      16000; Marine
+   161600000; Marine Ch 20 Weather     ; WFM (stereo)        ;      16000; Marine
+   161975000; AIS1                     ; Demod Off           ;      12500; AIS
+   162025000; AIS2                     ; Demod Off           ;      12500; AIS
+   433899600; 433.90                   ; Raw I/Q             ;      10000; LoRa
+   433926000; FT-004B (temp sensor)    ; Raw I/Q             ;      10000; LoRa
+   439875000; National System (UHF)    ; WFM (stereo)        ;      12500; UHF CB
+   476675000; NZ PRS Ch 11 Calling     ; Demod Off           ;      12500; UHF CB
+   477400000; NZ PRS Ch 40 Road/Trucks ; WFM (stereo)        ;      12500; UHF CB
+   918875000; nz_meshtastic_sf16       ; Demod Off           ;      10000; Protocol
+  1090000000; ADSB                     ; Demod Off           ;      12500; Protocol
