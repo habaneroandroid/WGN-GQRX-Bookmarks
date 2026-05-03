@@ -71,7 +71,6 @@ UHF CB              ; #550000
    161975000; AIS1                     ; Demod Off           ;      12500; AIS
    162025000; AIS2                     ; Demod Off           ;      12500; AIS
    433899600; 433.90                   ; Raw I/Q             ;      10000; LoRa
-   433926000; FT-004B (temp sensor)    ; Raw I/Q             ;      10000; LoRa
    439875000; National System (UHF)    ; WFM (stereo)        ;      12500; UHF CB
    476675000; NZ PRS Ch 11 Calling     ; Demod Off           ;      12500; UHF CB
    477400000; NZ PRS Ch 40 Road/Trucks ; WFM (stereo)        ;      12500; UHF CB
